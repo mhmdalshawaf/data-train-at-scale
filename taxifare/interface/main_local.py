@@ -228,7 +228,7 @@ def pred(X_pred: pd.DataFrame = None) -> np.ndarray:
             dropoff_latitude=[40.769802],
             passenger_count=[1],
         ))
-
+#ghg
     model = load_model()
     X_processed = preprocess_features(X_pred)
     y_pred = model.predict(X_processed)
