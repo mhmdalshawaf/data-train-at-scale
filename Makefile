@@ -1,7 +1,7 @@
 .DEFAULT_GOAL := default
 #################### PACKAGE ACTIONS ###################
 reinstall_package:
-	@pip uninstall -y taxifare || :
+	@pip uninstall -y taxifare1 || :
 	@pip install -e .
 
 ##################### TESTS #####################
